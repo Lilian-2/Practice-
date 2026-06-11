@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f2f2f2;
+    font-family:Georgia, serif;
+    padding:10px;
+}
+
+/* HEADER */
+
+header{
+    border:2px solid green;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+}
+
+.logo img{
+    width:40px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    margin:0 40px;
+    font-size:20px;
+}
+
+.buttons button{
+    padding:5px 10px;
+    border:none;
+    cursor:pointer;
+}
+
+.signup{
+    background:orange;
+    color:white;
+}
+
+/* MAIN */
+
+.container{
+    margin-top:20px;
+    display:flex;
+    border:2px solid green;
+    padding:10px;
+    gap:10px;
+}
+
+/* LEFT */
+
+.left{
+    width:60%;
+}
+
+.box{
+    display:flex;
+    background:white;
+    border:3px solid #d8d86a;
+    padding:15px;
+    margin-bottom:10px;
+}
+
+.box img{
+    width:70px;
+    height:100px;
+    margin-right:20px;
+}
+
+.text h2{
+    margin-bottom:15px;
+}
+
+/* RIGHT */
+
+.right{
+    width:40%;
+    border:2px solid purple;
+    background-image:url("images/netflix-bg.png");
+    background-size:cover;
+    background-position:center;
+    padding:20px;
+}
+
+.right h2{
+    margin-bottom:20px;
+}
+
+.right p{
+    margin-bottom:20px;
+}
+
+.right input{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.right button{
+    width:100%;
+    padding:10px;
+    background:orange;
+    color:white;
+    border:none;
+}
